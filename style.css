@@ -3,33 +3,33 @@
 body {
   background-color: #f8f8f8;
   color: #333;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
 }
 
-.header-container {
+.header_container {
   width: 500px;
   margin: 0 auto;
   display: block;
   text-align: right;
 }
 
-.header-img {
+.header_container_img {
   width: 100%;
 }
 
-.header-container .more_info {
-  font-family: fantasy, cursive;
+.header_container_link {
+  font-family: "Fantasy", cursive;
 }
 
 @media (max-width: 768px) {
   
-  .header-container { 
+  .header_container { 
     text-align: center;
   }
 
 }
 
-.main-page-el {
+.main-page {
   display: block;
   width: 500px;
   margin: 0 auto 0;
@@ -45,8 +45,8 @@ body {
   display: flex;
 }
 
-.incompleted-tasks,
-.completed-tasks {
+.todo-section_tasks,
+.completed-section_tasks {
   margin: 0;
   padding: 0;
 }
@@ -58,24 +58,24 @@ body {
 
 .check, 
 .task, 
-.edit, 
-.del {
+.edit-btn, 
+.del-btn {
   outline: none;
 }
 
-.edit, 
-.del, 
+.edit-btn, 
+.del-btn, 
 .add-btn {
   background: none;
   border: 0px;
   color: #888;
   font-size: 15px;
   width: 60px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   cursor: pointer;
 }
 
-.edit:hover,
+.edit-btn:hover,
 .add-btn:hover {
   color: #3a3a3a;
 }
@@ -102,7 +102,7 @@ body {
   border: 1px solid #ddd;
   background: #fff;
   border-radius: 6px;
-  font-family: Lato, sans-serif;
+  font-family: "Lato", sans-serif;
   color: #888;
 }
 
