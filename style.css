@@ -83,7 +83,7 @@ body {
 /* Heading */
 
 .heading,
-.new-task-lbl{
+.new-task-lbl {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -170,7 +170,7 @@ body {
 
 /* Edit Task */
 
-.tasks-items .text-input{
+.tasks-items .text-input {
   display:none;
 }
 
