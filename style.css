@@ -21,7 +21,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   
   .header-container { text-align: center;
   }
@@ -46,16 +46,16 @@ body {
 
 .incompleted-tasks,
 .completed-tasks {
-  margin:0;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
 }
 
 .tasks-items, .heading {
-  list-style:none;
+  list-style: none;
 }
 
 .check, .task, .edit, .del{
-  outline:none;
+  outline: none;
 }
 
 .edit, .del, .add-btn {
@@ -168,10 +168,10 @@ body {
 }
 
 .edit-mode .text-input {
-  display:inline-block;
-  width:224px
+  display: inline-block;
+  width: 224px
 }
 
 .edit-mode .task-saved {
-  display:none;
+  display: none;
 }
