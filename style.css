@@ -23,7 +23,8 @@ body {
 
 @media (max-width: 768px) {
   
-  .header-container { text-align: center;
+  .header-container { 
+    text-align: center;
   }
 
 }
@@ -50,15 +51,21 @@ body {
   padding: 0;
 }
 
-.tasks-items, .heading {
+.tasks-items, 
+.heading {
   list-style: none;
 }
 
-.check, .task, .edit, .del{
+.check, 
+.task, 
+.edit, 
+.del {
   outline: none;
 }
 
-.edit, .del, .add-btn {
+.edit, 
+.del, 
+.add-btn {
   background: none;
   border: 0px;
   color: #888;
